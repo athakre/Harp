@@ -1,0 +1,56 @@
+languageCode: en-us
+title: harp
+author: Bingjing Zhang
+canonifyurls: true
+baseurl: "https://dsc-spidal.github.io/harp/"
+
+# Site-level config
+metadataformat: yaml
+newcontenteditor: atom
+taxonomies:
+  tag: tags
+
+# Pygments syntax highlighting
+pygmentsstyle: monokai
+pygmentsuseclasses: false
+pygmentscodefences: true
+
+# Site-level parameters available through .Site.Params.{key}
+params:
+  author: Indiana University
+  description: Harp is a collective communication library plugined into Hadoop from Indiana University.
+  versions:
+    harp: 1.0.0
+  assets:
+    favicon:
+      small: /img/favicon-16x9.png
+      large: /img/favicon-32x18.png
+    logo: /img/logo54x54.png #logo.png
+    textlogo: /img/0-1-1.png #logo.png
+    textLogoSmall: /img/0-1-2.png #logo.png
+    tilekm: /img/tile_km.png
+    tilesvm: /img/tile_svm.png
+    tilelda: /img/tile_lda.png
+    tilemlr: /img/tile_mlr.png
+    tilerf: /img/tile_rf.png
+    tilenn: /img/tile_nn.png
+    css:
+      - /css/style.min.css
+      - /css/font-awesome.min.css
+      - /css/pygments.css
+    js:
+      - https://code.jquery.com/jquery-2.2.1.min.js
+      - /js/app.min.js
+  tagline: A collective communication library plugined into Hadoop from Indiana University
+  github:
+    home: https://github.com/DSC-SPIDAL/harp/
+    master: https://github.com/DSC-SPIDAL/harp/tree/master
+    issues: https://github.com/DSC-SPIDAL/harp/issues
+  social:
+    googleGroup: https://groups.google.com/forum/#!forum/harp-users
+  seo:
+    opengraph:
+      - property: locale
+        content: en_US
+      - property: type
+        content: article
